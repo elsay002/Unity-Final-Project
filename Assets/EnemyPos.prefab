@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2168744632103999680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2168744632103999683}
+  - component: {fileID: 2168744632103999685}
+  m_Layer: 0
+  m_Name: EnemyPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2168744632103999683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2168744632103999680}
+  m_LocalRotation: {x: 0, y: 0.8870109, z: 0, w: 0.46174863}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1998205525294850942}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 125, z: 0}
+--- !u!114 &2168744632103999685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2168744632103999680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ef0fa98d1888e4d8b584c4d725e404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitName: EvilRobot
+  damage: 5
+  maxHP: 30
+  currentHP: 30
+--- !u!1001 &2168744631708450423
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2168744632103999683}
+    m_Modifications:
+    - target: {fileID: 406415326761737481, guid: 957d488f200e40d43aa7b722888a4734,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 406415326761737481, guid: 957d488f200e40d43aa7b722888a4734,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 406415326761737481, guid: 957d488f200e40d43aa7b722888a4734,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 406415326761737481, guid: 957d488f200e40d43aa7b722888a4734,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 406415326761737481, guid: 957d488f200e40d43aa7b722888a4734,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.043619405
+      objectReference: {fileID: 0}
+    - target: {fileID: 406415326761737481, guid: 957d488f200e40d43aa7b722888a4734,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 406415326761737481, guid: 957d488f200e40d43aa7b722888a4734,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9990483
+      objectReference: {fileID: 0}
+    - target: {fileID: 406415326761737481, guid: 957d488f200e40d43aa7b722888a4734,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 406415326761737481, guid: 957d488f200e40d43aa7b722888a4734,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 406415326761737481, guid: 957d488f200e40d43aa7b722888a4734,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 406415326761737481, guid: 957d488f200e40d43aa7b722888a4734,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 406415326761737525, guid: 957d488f200e40d43aa7b722888a4734,
+        type: 3}
+      propertyPath: m_Name
+      value: Cube 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 957d488f200e40d43aa7b722888a4734, type: 3}
+--- !u!4 &1998205525294850942 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 406415326761737481, guid: 957d488f200e40d43aa7b722888a4734,
+    type: 3}
+  m_PrefabInstance: {fileID: 2168744631708450423}
+  m_PrefabAsset: {fileID: 0}
